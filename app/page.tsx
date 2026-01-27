@@ -192,7 +192,7 @@ export default function Home() {
             </div>
 
             <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-700">
-              <div className="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
+              <div className="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700  dark:text-gray-200">
                 <Image src="/js.png" width={24} height={24} alt="" />
               </div>
 
@@ -202,6 +202,46 @@ export default function Home() {
 
               <p className="mt-2 text-pretty text-gray-700 dark:text-gray-200">
                 Ajouter des interactions dynamiques et efficaces.
+              </p>
+            </div>
+            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-700">
+              <div className="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:text-gray-200">
+                <Image src="/html-5.png" width={24} height={24} alt="" />
+              </div>
+
+              <h3 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
+                REACT
+              </h3>
+
+              <p className="mt-2 text-pretty text-gray-700 dark:text-gray-200">
+                Développer des interfaces interactives et réactives.
+              </p>
+            </div>
+            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-700">
+              <div className="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:text-gray-200">
+                <Image src="/html-5.png" width={24} height={24} alt="" />
+              </div>
+
+              <h3 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
+                NEXT.js
+              </h3>
+
+              <p className="mt-2 text-pretty text-gray-700 dark:text-gray-200">
+                Optimiser les performances et le rendu côté serveur.
+              </p>
+            </div>
+            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-700">
+              <div className="inline-flex rounded-lg bg-gray-100 p-3 text-gray-700 dark:text-gray-200">
+                <Image src="/html-5.png" width={24} height={24} alt="" />
+              </div>
+
+              <h3 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
+                EXPRESS.js
+              </h3>
+
+              <p className="mt-2 text-pretty text-gray-700 dark:text-gray-200">
+                Créer des serveurs rapides et gérer les routes d’applications
+                web.
               </p>
             </div>
           </div>
