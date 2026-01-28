@@ -131,14 +131,25 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative w-[350px] h-[350px] lg:w-[600px]  lg:h-[600px] rounded-full bg-gray-800 overflow-hidden flex ">
-            <Image
-              src="/S-Hero.jpeg"
-              alt="Photo Hélène"
-              width={500}
-              height={500}
-              className="absolute inset-0 w-full h-full object-cover"
-            />
+          <div className="relative w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] flex items-center justify-center">
+          
+            <span className="absolute top-10 left-6 w-3 h-3 rounded-full bg-gray-500 opacity-70"></span>
+            <span className="absolute top-24 right-7 w-4 h-4 rounded-full bg-gray-400 opacity-60"></span>
+            <span className="absolute bottom-16 left-12 w-2.5 h-2.5 rounded-full bg-gray-600 opacity-80"></span>
+            <span className="absolute bottom-10 right-20 w-3 h-3 rounded-full bg-gray-500 opacity-50"></span>
+
+            <div
+              className="relative z-10 w-full h-full rounded-full bg-gray-800 overflow-hidden
+                  shadow-[0_-25px_50px_-10px_rgba(0,0,0,0.6)]"
+            >
+              <Image
+                src="/S-Hero.jpeg"
+                alt="Photo Hélène"
+                width={500}
+                height={500}
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
